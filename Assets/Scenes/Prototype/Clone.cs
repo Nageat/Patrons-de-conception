@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Clone : MonoBehaviour
 {
-    public voiture Voiture;
+    [SerializeField]
+    private voiture Voiture;
     
     public virtual void Vitesse()
     {
