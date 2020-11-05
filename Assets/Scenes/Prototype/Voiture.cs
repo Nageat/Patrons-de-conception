@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class voiture : ScriptableObject
+public class voiture : 
 {
-    public float speed;
-    public string Couleur;
+
 
 }
